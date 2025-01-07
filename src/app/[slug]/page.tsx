@@ -1,15 +1,13 @@
-"use client"
 import { groq } from "next-sanity";
 import { client } from "@/sanity/lib/client";
 import Image from "next/image";
-
 // Query to fetch the blog post by slug
 import React from 'react'
 import MainHeading from "@/components/MainHeading";
 import RecommendBlog from "@/components/RecommendBlog";
 import { PortableText } from "next-sanity";
 import Comment from "@/components/Comment";
-const page = async ({params}:{params:{slug:string}}) => {
+const DynamicBlog = async ({params}:{params:{slug:string}}) => {
     const query = groq`*[_type == "blog" && slug.current == $slug][0]{
     title,
     content,
@@ -39,4 +37,4 @@ const page = async ({params}:{params:{slug:string}}) => {
   )
 }
 
-export default page
+export default DynamicBlog
