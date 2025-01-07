@@ -64,6 +64,7 @@ export const projectData = [
     blueButton : "Management",
     pinkButton:"Presentation",
     purpleButton:"Leadership",
+    href:"/bill-walsh-leadership-lessons"
   },
   {
     id:2,
@@ -71,9 +72,10 @@ export const projectData = [
     title:"PM mental models",
     content:"Mental models are simple expressions of complex processes or relationships.",
     date:"Thursday, 2 January 2025",
-    blueButton : "Products",
+    blueButton :"Products",
     pinkButton:"Research",
     purpleButton:"Frameworks",
+    href:"/pm-mental-models"
   },
   {
     id:3,
@@ -81,9 +83,10 @@ export const projectData = [
     title:"What is Wireframing?",
     content:"Introduction to Wireframing and its Principles. Learn from the best in the industry.",
     date:"Thursday, 2 January 2025",
-    blueButton : "Research",
+    blueButton :"Research",
     pinkButton:"Presentation",
     purpleButton:"Design",
+    href:"/what-is-wireframing"
   },
   {
     id:4,
@@ -91,9 +94,10 @@ export const projectData = [
     title:"How collaboration makes us better designers",
     content:"Collaboration can make our teams stronger, and our individual designs better.",
     date:"Thursday, 2 January 2025",
-    blueButton : "Research",
+    blueButton :"Research",
     pinkButton:"Presentation",
     purpleButton:"Design",
+    href:"/how-collaboration-makes-us-better-designers"
   },
   {
     id:5,
@@ -101,9 +105,10 @@ export const projectData = [
     title:"Our top 10 Javascript frameworks to use",
     content:"JavaScript frameworks make development easy with extensive features and functionalities.",
     date:"Thursday, 2 January 2025",
-    blueButton : "Software Dvelopment",
+    blueButton :"Software Dvelopment",
     pinkButton:"Tools",
     purpleButton:"SaaS",
+    href:"/our-top-10-javascript-frameworks-to-use"
   },
   {
     id:6,
@@ -111,8 +116,50 @@ export const projectData = [
     title:"Podcast: Creating a better CX Community",
     content:"Starting a community does not need to be complicated, but how do you get started?",
     date:"Thursday, 2 January 2025",
-    blueButton : "Podcast",
+    blueButton :"Podcast",
     pinkButton:"Customer success",
     purpleButton:"Presentation",
+    href:"/podcast-creating-a-better-cx-community"
   },
- ] 
+ ];
+ export const hero1={
+  img:"/UX.png",
+  date:"Thursday , 2 jan 2025",
+  title:"UX review presentations",
+  content:"How do you create compelling presentations that wow your colleagues and impress your managers?",
+  purpleBtn:"Design",
+  blueBtn:"Research",
+  pinkBtn:"Presentation",
+  href:"/ux-review-presentations"
+ }
+ export const hero2=[
+  {
+  id:1,
+  img:"/Linear.png",
+  date:"Thursday , 2 jan 2025",
+  title:"Migrating to Linear 101",
+  content:"Linear helps streamline software projects, sprints, tasks, andbug tracking. Here is how to get...",
+  blueBtn:"Design",
+  pinkBtn:"Research",
+  href:"/migrating-to-linear-101"
+ },
+ {
+  id:2,
+  img:"/API.png",
+  date:"Thursday , 2 jan 2025",
+  title:"Building Your API Stack",
+  content:"The rise of RESTful APIs has been met by a rise in tools for creating, testing, and manag...",
+  blueBtn:"Design",
+  pinkBtn:"Research",
+  href:"/building-your-api-stack"	
+ }
+]
+ export const hero3={
+  img:"/Grid.png",
+  date:"Thursday , 2 jan 2025",
+  title:"Grid system for better Design User Interface",
+  content:"A grid system is a design tool used to arrange content on a webpage. It is a series of vertical and horizontal lines that create a matrix of intersecting points, which can be used to align and organize page elements. Grid systems are used to create a consistent look and feel across a website, and can help to make the layout more visually appealing and easier to navigate.",
+  purpleBtn:"Design",
+  pinkBtn:"Interface",
+  href:"/grid-system-for-better-design-user-interface"
+ }
