@@ -2,7 +2,6 @@ import { groq } from "next-sanity";
 import { client } from "@/sanity/lib/client";
 import Image from "next/image";
 // Query to fetch the blog post by slug
-import React from 'react'
 import MainHeading from "@/components/MainHeading";
 import RecommendBlog from "@/components/RecommendBlog";
 import { PortableText } from "next-sanity";
@@ -24,8 +23,8 @@ const DynamicBlog = async ({params}:{params:{slug:string}}) => {
        <p className="font-[inter] font-semibold text-[#6941C6] text-xs md:text-sm ">{blog.date}</p> 
        <Image src={blog.imageUrl} alt={blog.title} width={778} height={426} />
        <h1 className="font-bold text-lg md:text-2xl lg:text-3xl">{blog.title}</h1>
-       <p className="font-[inter] ">
-        <PortableText value={blog.content}/></p>
+       <div className="font-[inter] ">
+        <PortableText value={blog.content}/></div>
        <Comment/>
        <p className="font-semibold text-[#6941c6] text-sm md:text-base">Author: {blog.author}</p>
        </div>

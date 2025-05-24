@@ -1,7 +1,6 @@
 import { Blogs } from '@/data/data';
 import Image from 'next/image';
 import Link from 'next/link';
-import React from 'react'
 import { MdArrowOutward } from 'react-icons/md';
 import PurpleBtn from './PurpleBtn';
 import PinkBtn from './PinkBtn';

@@ -1,4 +1,3 @@
-import React from "react";
 import BlueBtn from "@/components/BlueBtn";
 import MainHeading from "@/components/MainHeading";
 import PinkBtn from "@/components/PinkBtn";
@@ -7,7 +6,6 @@ import Image from "next/image";
 import { MdArrowOutward } from "react-icons/md";
 import { Blogs,hero1,hero2,hero3 } from "@/data/data";
 import Link from "next/link";
-import {} from "@/data/data"
 const BlogPage = () => {
   return (
     <div className="max-w-[1440px] mx-auto">
