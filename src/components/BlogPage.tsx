@@ -70,7 +70,7 @@ const BlogPage = () => {
           <div className="hover:scale-105 transition-all">
             <Link href={hero3.href}>
             <Image
-              src={hero3.img} alt="image" height={228} width={992} className="h-[228px] w-auto"/>
+              src={hero3.img} alt="image" height={228} width={992} className="h-[228px] w-[992px]"/>
               </Link>
           </div>
           <div className="hover:scale-105 transition-all">
