@@ -1,36 +1,38 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# My Blog Web App
 
-## Getting Started
+A fully functional and modern blog application built with **Next.js** and **Sanity CMS**. This project showcases dynamic content fetching, clean UI, and user interaction through comments.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Dynamic Routing:** Each blog post has its own dynamic page based on the slug.
+- **Sanity CMS Integration:** Content is managed and fetched from Sanity, making it easy to update blogs.
+- **Rich Text Support:** Blog content supports rich text formatting using PortableText.
+- **Image Optimization:** Images are optimized and served with Next.js Image component.
+- **Responsive Design:** The app is fully responsive and works well on mobile and desktop.
+- **Comments Section:** Users can view and add comments on blog posts.
+- **Recommended Blogs:** Sidebar shows recommended blogs for better user engagement.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Tech Stack
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Next.js:** React framework for server-side rendering and static site generation.
+- **Sanity CMS:** Headless CMS for content management.
+- **React:** UI library used for building components.
+- **Tailwind CSS:** Utility-first CSS framework for styling.
+- **PortableText:** For rendering rich text content from Sanity.
+- **Vercel:** Deployment platform for easy hosting.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Live Demo
 
-## Learn More
+Check out the live demo here:  
+https://my-blog-web-app-nu.vercel.app/
 
-To learn more about Next.js, take a look at the following resources:
+## Project Structure
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- `/app` - Contains the main Next.js app pages and components.
+- `/src/sanity` - Sanity client and query helpers.
+- `/components` - React components like `MainHeading`, `Comment`, and `RecommendBlog`.
+- `/styles` - Global and component-specific styles.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Built with ❤️ using Next.js and Sanity CMS.
